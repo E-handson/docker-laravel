@@ -23,7 +23,7 @@ $ docker-compose up
 
 ### アプリのコンテナに接続
 ```
-$ docker-compose exec app ash
+$ docker-compose exec app bash
 ```
 
 ### Laravel6系インストールコマンド
