@@ -18,15 +18,15 @@ $ docker-compose build
 
 ### コンテナの作成と立ち上げ
 ```
-$ docker-compose build
-```
-
-### Laravel6系インストールコマンド
-```
-$ docker-compose exec app composer create-project --prefer-dist laravel/laravel "6.*"
+$ docker-compose up
 ```
 
 ### アプリのコンテナに接続
 ```
 $ docker-compose exec app ash
+```
+
+### Laravel6系インストールコマンド
+```
+$ composer create-project --prefer-dist "laravel/laravel=6.*" .
 ```
