@@ -9,7 +9,7 @@
 - PHP 7.4
 - MySQL 8.0
 - nginx 1.18
-- composer 1.10
+- composer 2.0.14
 
 ### サービスの構築
 ```
